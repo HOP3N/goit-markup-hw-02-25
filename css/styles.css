@@ -1,4 +1,7 @@
+.link {
+  color: #000;
+}
 .link:hover,
-.link:focus {
-    color: red;
+:focus {
+  color: red;
 }
