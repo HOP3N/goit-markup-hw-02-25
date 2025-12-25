@@ -3,15 +3,15 @@
   --highlight-color: #2196f3;
   --grey-color: #757575;
   --white-color: #ffffff;
+  --background-color: #2f303a;
 }
 
 * {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 100%;
-  letter-spacing: 2%;
+  /* letter-spacing: auto; */
 }
 
 .link {
@@ -32,16 +32,54 @@
   color: var(--highlight-color);
 }
 
+/* -----------Hero------------ */
+/* .hero {
+  background-color: var(--background-color);
+  padding: 60px 20px;
+  width: 50%;
+  height: auto;
+} */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+/* .hero-button {
+  color: var(--white-color);
+  background-color: var(--highlight-color);
+  border: none;
+    margin: 0 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 3%;
+  text-align: center;
+} */
+
+.hero-button:hover,
+:focus,
+:active {
+  color: var(--background-color);
+  background-color: var(--grey-color);
+}
+
+/* -----------Portfolio------------ */
+
 .button {
   border: none;
   margin: 0 0 20px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  leading-trim: NONE;
   line-height: 26px;
-  letter-spacing: 3%;
   text-align: center;
+  cursor: pointer;
 }
 
 .button:hover,
