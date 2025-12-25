@@ -1,7 +1,53 @@
+:root {
+  --main-color: #212121;
+  --highlight-color: #2196f3;
+  --grey-color: #757575;
+  --white-color: #ffffff;
+}
+
+* {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
+
 .link {
-  color: #000;
+  color: var(--main-color);
+}
+
+.link-mail,
+.link-tel {
+  color: var(--grey-color);
+  font: var(--font);
 }
 .link:hover,
-:focus {
-  color: red;
+:focus,
+:active {
+  color: var(--highlight-color);
+}
+.current {
+  color: var(--highlight-color);
+}
+
+.button {
+  border: none;
+  margin: 0 0 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 26px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.button:hover,
+:focus,
+:active {
+  color: var(--white-color);
+  background-color: var(--highlight-color);
+  border: none;
 }
